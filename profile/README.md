@@ -4,6 +4,8 @@
 
 **Sandboxing AI agents in YOLO mode using Podman and native Java/GraalVM.**
 
+<img align="left" height="400" width="260" src="images/porelo-400.png" alt="Porelo with AI agent in podman">
+
 In YOLO mode an AI agent stops asking "Can I edit this file?" or "Can I run this command?" and
 simply does it: modifies code, deletes files, installs packages, runs scripts — unattended.
 
@@ -25,6 +27,8 @@ Agents can talk to each other without leaking data: the
 no encoded payloads, no file contents, no credentials — using fixed, reproducible rules rather than
 another language model. Use [message matrix](https://github.com/porelo-ai/porelo-message-matrix)
 to run a local Matrix server for real-time agent-to-agent and developer-to-agent communication.
+
+<br clear="left"/>
 
 ## Repositories
 
