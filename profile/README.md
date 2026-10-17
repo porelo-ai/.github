@@ -1,6 +1,6 @@
 # Porelo
 
-## Jail your agents
+### Jail your agents
 
 **Sandboxing AI agents in YOLO mode using Podman and native Java/GraalVM.**
 
@@ -14,13 +14,13 @@ default-deny outbound networking, a credential vault that keeps the real keys on
 checkpoint for every run, and a desktop notification for live allow/deny decisions. Work leaves the
 box only through review.
 
-## Control tower for multiple agents
+### Control tower for multiple agents
 
 The [frontend](https://github.com/porelo-ai/porelo-frontend) works like a control tower: one place to
 watch every agent, wherever it runs — locally or on another machine over ssh — and to decide what
 it may do next.
 
-## Agents can talk to each other
+### Agents can talk to each other
 
 Agents can talk to each other without leaking data: the
 [message sluice](https://github.com/porelo-ai/porelo-message-sluice) lets only plain prose through —
