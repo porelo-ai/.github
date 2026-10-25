@@ -48,13 +48,23 @@ to run a local Matrix server for real-time agent-to-agent and developer-to-agent
 <tr>
 <td><a href="https://github.com/porelo-ai/porelo-message-matrix">porelo-message-matrix</a></td>
 <td>The Matrix transport: a project's room, where tasks talk.</td>
-<td>&mdash;</td>
+<td><a href="https://github.com/porelo-ai/porelo-message-matrix/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-message-matrix/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-adapters">porelo-adapters</a></td>
+<td>The build readers behind <code>porelo build status</code>, for GitHub and Forgejo Actions, and the contract suite they pass.</td>
+<td><a href="https://github.com/porelo-ai/porelo-adapters/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-adapters/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
 </tr>
 <tr><th colspan="3" align="left">Frontend</th></tr>
 <tr>
 <td><a href="https://github.com/porelo-ai/porelo-frontend">porelo-frontend</a></td>
 <td>The Flutter interface; talks to the daemon over its socket, locally or on another machine via ssh.</td>
 <td><a href="https://github.com/porelo-ai/porelo-frontend/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-frontend/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-intellij">porelo-intellij</a></td>
+<td>The IntelliJ IDEA plugin: review an agent's waiting work in the IDE without checking it out.</td>
+<td><a href="https://github.com/porelo-ai/porelo-intellij/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-intellij/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
 </tr>
 <tr><th colspan="3" align="left">Agents</th></tr>
 <tr>
@@ -68,15 +78,46 @@ to run a local Matrix server for real-time agent-to-agent and developer-to-agent
 <td><a href="https://github.com/porelo-ai/porelo-pi/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-pi/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/porelo-ai/porelo-codex">porelo-codex</a></td>
+<td>Adapter packaging <a href="https://github.com/openai/codex">Codex CLI</a>.</td>
+<td><a href="https://github.com/porelo-ai/porelo-codex/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-codex/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-agy">porelo-agy</a></td>
+<td>Adapter packaging <a href="https://github.com/google-antigravity/antigravity-cli">Antigravity CLI</a> (<code>agy</code>).</td>
+<td><a href="https://github.com/porelo-ai/porelo-agy/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-agy/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/porelo-ai/porelo-omp">porelo-omp</a></td>
 <td>Adapter packaging <a href="https://github.com/can1357/oh-my-pi">Oh My Pi</a> (<code>porelo-agent-omp</code>).</td>
 <td><a href="https://github.com/porelo-ai/porelo-omp/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-omp/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr><th colspan="3" align="left">Hosts and builds</th></tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-host">porelo-host</a></td>
+<td>Brings a project up on a server and takes it down again, owned or rented by the hour: an Ansible collection.</td>
+<td><a href="https://github.com/porelo-ai/porelo-host/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-host/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-buildtools">porelo-buildtools</a></td>
+<td>The build and test tooling shared by the repositories, published to Maven Central.</td>
+<td><a href="https://github.com/porelo-ai/porelo-buildtools/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-buildtools/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-parent">porelo-parent</a></td>
+<td>The parent POM of the Java repositories.</td>
+<td><a href="https://github.com/porelo-ai/porelo-parent/actions/workflows/build.yml"><img src="https://github.com/porelo-ai/porelo-parent/actions/workflows/build.yml/badge.svg" alt="Build"></a></td>
 </tr>
 <tr><th colspan="3" align="left">Project</th></tr>
 <tr>
 <td><a href="https://github.com/porelo-ai/porelo-project">porelo-project</a></td>
 <td>The project definition and planning: <code>project.yml</code> and the cross-repository requirements. No product code.</td>
 <td>&mdash;</td>
+</tr>
+<tr>
+<td><a href="https://github.com/porelo-ai/porelo-ai.github.io">porelo-ai.github.io</a></td>
+<td>The documentation of every part as one site: <a href="https://porelo-ai.github.io">porelo-ai.github.io</a>.</td>
+<td><a href="https://github.com/porelo-ai/porelo-ai.github.io/actions/workflows/site.yml"><img src="https://github.com/porelo-ai/porelo-ai.github.io/actions/workflows/site.yml/badge.svg" alt="Site"></a></td>
 </tr>
 </tbody>
 </table>
